@@ -136,4 +136,193 @@
     background-size: cover;
 }
 .box-addetail1{
+    padding-left: 50px;
+    text-align: left;
+    font-family:  "Noto Sans", sans-serif;
+    color: #555555;
+    line-height: 40px;
+    padding-top: 100px;
+}    
+.box-addetail2{
+    padding-right: 50px;
+    text-align: right;
+    font-family:  "Noto Sans", sans-serif;
+    color: #555555;
+    line-height: 40px;
+    padding-top: 100px;
+}
+.ad-head{
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    color: #2a2e4d;
+
+}
+.container-products{
+    max-width: 90%;
+    margin: 100px auto;
+}
+.d-flex1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product-head{
+    font-family: "Libre Baskerville", serif;
+    color: #2a2e4d;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.product1{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.photo1{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-image-05-01.jpg/2276408000000070023/400x400);
+    background-size: cover;
+}
+.photo1A{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-image-05-01.jpg/2276408000000070023/400x400);
+    background-size: cover;
+}
+.photo1A::before{
+    content: "sale";
+    background-color: #2a2e4d;
+    color: white;
+    border-radius: 6px;
+}
+.photo2{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-02-01.jpeg/2276408000000070083/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.photo2::before{
+    content: "sale";
+    background-color: #2a2e4d;
+    color: white;
+    border-radius: 6px;
+}
+.photo3{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-05-01.jpeg/2276408000000073419/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.photo4{
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    background-image: url(https://optic-zone-demo.zohocommerce.com/product-images/product-04-01.jpeg/2276408000000070051/400x400);
+    background-size: cover;
+    border: 1px dotted gray;
+}
+.product2{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product3{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product4{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product5{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.product6{
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border: 1px dotted gray;
+}
+.container-deals{
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-777.jpg);
+    background-position: center;
+}
+.d-flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-deal{
+    width: 60%;
+    padding: 20px;
+    margin: 150px;
+    background-color: #0B1C2D;
+    color: white;
+    text-align: center;
+}
+.container-models{
+    max-width: 90%;
+    margin: 50px auto;
+}
+.box-model1{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #f5e8e8;
+}
+.box-model2{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #e5eff2;
+}
+.box-model3{
+    width: 32%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #f4f0e8;
+}
+.container-billboard{
+    max-width:100%;
+    height: 500px;
+    margin: 50px 0px;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-781.jpg);
+    background-size: cover;
 }
