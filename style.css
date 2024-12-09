@@ -319,10 +319,116 @@
     line-height: 60px;
     background-color: #f4f0e8;
 }
-.container-billboard{
+.container-adboard{
     max-width:100%;
     height: 500px;
     margin: 50px 0px;
     background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-781.jpg);
     background-size: cover;
+    background-position: center;
+}
+.box-adbannerdetails{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family:  "Noto Sans", sans-serif;
+}
+.container-refer{
+    max-width: 90%;
+    margin: 50px auto;
+}
+.box-refertitle{
+    width: 100%;
+    margin: 50px;
+    text-align: center;
+    font-family:  "Noto Sans", sans-serif;
+    color: #2a2e4d;
+    border-bottom: 1px solid #2a2e4d;
+}
+.box-refer{
+    width: 25%;
+    padding: 30px;
+}
+.container-lastbanner{
+    max-width: 90%;
+    height: 500px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-782.jpg);
+
+}
+.box-lastbanner1{
+    width: 50%;
+    text-align: center;
+}
+.banner-text{
+    font-size: 32px;
+}
+.banner-btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #2a2e4d;
+    color: #2a2e4d;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.banner-btn:hover{
+    background-color: #2a2e4d;
+    color: white;
+}
+.box-lastbanner2{
+    width: 50%;
+    height: 100%;
+}
+.container-footer1{
+    max-width: 100%;
+    height: 100px;
+    background-color: #1f1b3c;
+}
+.box-footerA1{
+    width: 50%;
+    padding-left: 100px;
+    padding-top:30px ;
+    font-size: 20px;
+}
+.box-footerA2{
+    width: 50%;
+    padding-top: 30px;
+}
+.footer-inputA{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+.footer-btn{
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    background-color: #574cae;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+.footer-btn:hover{
+    background-color: #574cd1;
+}
+.container-footer2{
+    max-width: 100%;
+    height: 330px;
+    padding: 50px;
+    background-color: #2a2e4d;
+}
+.box-footericon{
+    width: 25%;
+    text-align: center;
+    border-bottom: 1px solid ;
+
+}
+.box-ender{
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: gainsboro;
 }
